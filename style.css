@@ -374,10 +374,24 @@ nav .fa-solid{
     display: none;
 }
 
+#header2{
+    width: 100%;
+    height: 100vh;
+    background-image: url(2y.png);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 200px;
+}
+
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(p333.png);
+        background-image: url(unnamed.png);
+    }
+
+    #header2{
+        background-image: url(3y.jpg);
+        margin-bottom: 200px;
     }
 
     .header-text{
@@ -448,3 +462,4 @@ nav .fa-solid{
     margin-top: -40px;
     display: block;
 }
+
